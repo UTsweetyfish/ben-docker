@@ -1,0 +1,5 @@
+services:
+  ben:
+    build: .
+    volumes:
+      - ./html:/ben/html
